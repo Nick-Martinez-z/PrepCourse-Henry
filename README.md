@@ -1,2 +1,1 @@
-# PrepCourse-Henry
-La cosa para empezar
+La cosa para aprender a clonar repositorios de Github
