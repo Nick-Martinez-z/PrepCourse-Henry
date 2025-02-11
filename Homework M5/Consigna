@@ -1,0 +1,34 @@
+Carpeta para colocar progresos de mi práctica:
+
+✏️ Consigna copiada y pegada
+Crea un modelo relacional basado en el modelo de negocio de Henry:
+1
+Identifica la relaciones.
+2
+Identifica las claves primarias (PK) y foráneas (FK).
+Las entidades que debes modelar junto a sus atributos son:
+•
+Carrera: ID_Carrera, Nombre
+•
+Cohorte: ID_Cohorte, Carrera, Fecha de inicio, Fecha de finalización, Instructor
+•
+Instructor: ID_Instructor, Cédula de identidad, Nombre, Apellido, Fecha de nacimiento, Fecha de incorporación
+•
+Alumno: ID_Alumno, Cédula de identidad, Nombre, Apellido, Fecha de nacimiento, Fecha de ingreso, Cohorte
+¿No sabes cómo empezar? Te dejamos algunos tips para que puedas hacerlo:
+Identifica Relaciones:
+Analiza cada entidad y determina cómo se relaciona con las demás. Por ejemplo, piensa en cómo se relacionan las entidades Carrera, Cohorte, Instructor y Alumno.
+Utiliza líneas (conectores) para representar las conexiones entre entidades y etiqueta las relaciones adecuadamente (uno a uno, uno a muchos, muchos a muchos).
+Claves Primarias y Foráneas:
+Para cada entidad, identifica la clave primaria (PK), que será un atributo único que identifique de manera única cada registro en esa entidad.
+Identifica las claves foráneas (FK) al examinar cómo las entidades se relacionan entre sí. Recuerda que las claves foráneas conectan las entidades y se corresponden con las claves primarias de otras entidades.
+Modelado del Diagrama:
+Utiliza un diagrama de modelo relacional para representar las entidades, atributos, relaciones y claves.
+Si bien no se menciona específicamente en la actividad, ten en cuenta la normalización del modelo, es decir, organizar las entidades y atributos de manera eficiente.
+Diagrama Tipo Copo de Nieve o Estrella:
+Considera si tu modelo se ajusta más a un esquema de copo de nieve (normalización adicional de las tablas) o a un esquema de estrella (tablas de hechos centrales y dimensiones).
+¿Te animas a identificar de qué tipo de diagrama se trata?
+Prueba y Retroalimentación:
+Ingresa datos hipotéticos en tu modelo para asegurarte de que las relaciones y claves funcionen correctamente.
+¡Comparte tu modelo con compañeros para obtener retroalimentación adicional!
+
